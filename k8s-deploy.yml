@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: mavenwebappcontainer
-        image: 044744845748.dkr.ecr.ap-south-1.amazonaws.com/mavenwebapp:latest
+        image: 044744845748.dkr.ecr.ap-south-1.amazonaws.com/maven-webapp:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
